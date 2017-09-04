@@ -20,7 +20,6 @@ already be installed.
 
     git clone https://github.com/alejandrobernalcollazos/plugdj-test
     cd plugdj-test
-    vagrant plugin install vagrant-vbguest
     vagrant up
 
 
