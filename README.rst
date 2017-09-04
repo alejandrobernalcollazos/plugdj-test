@@ -39,3 +39,10 @@ using Salt.
     vagrant ssh master
     sudo su
     salt '*' state.apply
+
+Then once the provisioning has finished, please get into the browser with this urls to test the http server working through an nginx proxy 
+
+.. code-block: bash
+
+    http://192.168.50.11:8080
+    http://192.168.50.12:8080
