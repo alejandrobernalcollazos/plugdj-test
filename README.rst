@@ -29,8 +29,7 @@ machines for you.
 
 One will be a Salt Master named `master` two will be Salt Minions named `minion1` and `minion2` that will contain the https server configurations (nginx and a golanguage based application) and minion3 that will contain a postgressql database. 
 
- The Salt Minions will point to the Salt Master and the Minion's keys will already be accepted. Because the keys are
-pre-generated and reside in the repo.
+ The Salt Minions will point to the Salt Master and the Minion's keys will already be accepted. Because the keys are pre-generated and reside in the repo.
 
 You can then run the following commands to log into the Salt Master and begin
 using Salt.
