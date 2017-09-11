@@ -53,19 +53,28 @@ In order to test the access to the DB please execute this command within any of 
    psql -h 192.168.50.13 -U plugdj
    password : plugdj
 
-In order to test the now endpoint in both virtual machines please try in the browser this two urls
+Testing "Now" Endpoint
+======================
+
+In both virtual machines please try in the browser this two urls
 
 .. code-block:: bash
 
    http://192.168.50.11:8080/now
    http://192.168.50.12:8080/now
 
-In order to test the check endpoint in both virtual machines please try in the browser this two urls
+Testing "Check" Endpoint
+========================
+
+In both virtual machines please try in the browser this two urls
 
 .. code-block:: bash
 
    http://192.168.50.11:8080/check
    http://192.168.50.12:8080/check
+
+Testing "Later" Endpoint
+========================
 
 In order to test the later endpoint in both virtual machines please try in the console the next commands
 
@@ -80,6 +89,3 @@ It will be useful if we see the check endpoint again in both servers
 
    http://192.168.50.11:8080/check
    http://192.168.50.12:8080/check
-
-
-   
