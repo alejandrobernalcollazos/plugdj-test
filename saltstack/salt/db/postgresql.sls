@@ -9,11 +9,10 @@ set sql files into the machine:
     - name: /opt/postgresql
     - source: salt://resources/postgresql
 
-set the user and database:
+set the bootstrap that create user db and tables:
    cmd.run:
     - name: |
-        sudo -u postgres psql --file=/opt/postgresql/create_user.sql 
-        sudo -u postgres psql --file=/opt/postgresql/create_db.sql
+        sudo -u postgres psql --file=/opt/postgresql/bootstrap.sql 
 
 bind postgresql to * instead of localhost and allow remote connections:
    cmd.run:
