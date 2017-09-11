@@ -46,13 +46,6 @@ Then once the provisioning has finished, please get into the browser with this u
     http://192.168.50.11:8080
     http://192.168.50.12:8080
 
-In order to test the access to the DB please execute this command within any of minion1 or minion2 machines
-
-.. code-block:: bash
-
-   psql -h 192.168.50.13 -U plugdj
-   password : plugdj
-
 Testing "Now" Endpoint
 ======================
 
